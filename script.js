@@ -23,7 +23,16 @@ for (let index = 0; index < numbers.length; index++) {
 }
 
 // 3. სტრიქონის თითოეული ასოს დაბეჭდვა და თუ ასო 'a'-ია, დამატებითი ტექსტის დაბეჭდვა:
-// ver gavige
+
+let striqoni = ["this this a word"];
+
+for (let index = 0; index < striqoni.length; index++) {
+  if (striqoni[index].includes("a")) {
+    console.log("striqoni includes letter a");
+  } else {
+    console.log(striqoni[index]);
+  }
+}
 
 // 4. მასივიდან ["red", "green", "blue", "yellow"] მხოლოდ გრძელი სიტყვების (5 ასოზე მეტი) გამოტანა:
 
